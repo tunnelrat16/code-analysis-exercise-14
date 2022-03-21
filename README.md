@@ -17,11 +17,11 @@ function (user){
 }
 ```
 
-| Input                | Output                                                                        |
-| -----                | ------                                                                        |
-|  "Bob", "active"     | 'Welcome back, Bob!' is stored in the return                                  | 
-|  "John", "inactive"  | 'Hey John! Would you like to renew your subscription?' is stored in the return| 
-|  "Stu", "active"     | 'Welcome back, Stu!' is stored in the return                                  | 
+| Input                | Output                                                  |
+| -----                | ------                                                  |
+|  "Bob", "active"     | {'Welcome back, Bob!'}                                  | 
+|  "John", "inactive"  | {'Hey John! Would you like to renew your subscription?'}| 
+|  "Stu", "active"     | {'Welcome back, Stu!'}                                  | 
 
 <table>
   <tr>
