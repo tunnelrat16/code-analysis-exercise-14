@@ -17,16 +17,16 @@ function (user){
 }
 ```
 
-| Input                | Output                                                  |
-| -----                | ------                                                  |
-|  "Bob", "active"     | {'Welcome back, Bob!'}                                  | 
-|  "John", "inactive"  | {'Hey John! Would you like to renew your subscription?'}| 
-|  "Stu", "active"     | {'Welcome back, Stu!'}                                  | 
+| Input  | Output                                                      |
+| ------ | ------------------------------------------------------------|
+| "Sam"  | 'Welcome back, ladiesman217!'                               |
+| "John" | 'Hey Johnboy21! Would you like to renew your subscription?' |
+| "Stu"  | 'Welcome back, Stutheman415!'                               |
 
 <table>
   <tr>
     <th>What does this program do?</th>
-    <td>This program determines if a user is active and if so, it stores in the return the appropriate response with their user name listed</td>
+    <td>This program determines if a user is active and if so, it stores in the return the appropriate response with their user name listed. If they are inactive it prompts them to do a renewal.</td>
   </tr>
 </table>
 
