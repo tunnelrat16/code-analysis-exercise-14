@@ -17,11 +17,11 @@ function (user){
 }
 ```
 
-| Input                                         | Output                                                      |
-| -----                                         | ------------------------------------------------------------|
-| const user: ("Bob", "Active", "ladiesman217") | 'Welcome back, ladiesman217!'                               |
-| const user: ("Jon", "Inactive", "Johnboy21" ) | 'Hey Johnboy21! Would you like to renew your subscription?' |
-| const user: ("Stu", "Active", "Stutheman415") | 'Welcome back, Stutheman415!'                               |
+| Input                                                            | Output                                                      |
+| -----                                                            | ------------------------------------------------------------|
+| user = {name: "Bob", status: "Active", username: "ladiesman217"} | 'Welcome back, ladiesman217!'                               |
+| user = {name: "Jon", status: "Inactive", username: "Johnboy21" } | 'Hey Johnboy21! Would you like to renew your subscription?' |
+| user = {name: "Stu", status: "Active", username: "Stutheman415"} | 'Welcome back, Stutheman415!'                               |
 
 <table>
   <tr>
